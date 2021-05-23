@@ -1,5 +1,7 @@
 # Particle Swarm Optimization Application
 
+PSO applied to function maximization.
+
 ### Config
 - Python version: 3.8
 
