@@ -27,9 +27,7 @@ class Swarm():
 
         print(self)
 
-    def move_particles(self, W):
-        c1 = c2 = 0.7
-
+    def move_particles(self, W, c1, c2):
         for particle in self.particles:
             new_velocity = (W*particle.velocity) \
                            + (c1*random.random()) * (particle.best_position - particle.current_position) \
