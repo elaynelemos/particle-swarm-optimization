@@ -18,3 +18,8 @@ source .virtualenv/bin/activate
 ```shell-session
 pip install -r requirements.txt -r requirements_dev.txt
 ```
+
+### Start jupyter
+```shell-session
+jupyter notebook
+```
